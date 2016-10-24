@@ -16,6 +16,8 @@ describe('FizzBuzz', function() {
       expect(fizzBuzz.game(2)).not.toBe('fizz');
     });
 
+  });
+
   describe("returns 'buzz' for multiples of 5", function() {
 
     it('buzz for number 10', function() {
