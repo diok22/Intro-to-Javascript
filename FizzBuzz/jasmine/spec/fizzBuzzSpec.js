@@ -1,23 +1,15 @@
-describe('Fizzbuzz', function() {
+describe('FizzBuzz', function() {
 
-  var fizzbuzz;
+  var fizzBuzz;
 
   beforeEach(function() {
-    fizzbuzz = new Fizzbuzz();
+    fizzBuzz = new FizzBuzz();
   });
 
-  describe('knows when a number is', function() {
+  describe("returns 'fizz' for multiples of 3", function() {
 
-    it('divisible by 3', function() {
-      expect(fizzbuzz.isDivisibleByThree(3)).toBe(true);
-    });
-
-  });
-
-  describe('knows then a number is NOT', function() {
-
-    it('divisible by 3', function() {
-      expect(fizzbuzz.isDivisibleByThree(1)).toBe(false);
+    it('fizz for number 3', function() {
+      expect(fizzBuzz.game(3)).toBe('fizz');
     });
 
   });

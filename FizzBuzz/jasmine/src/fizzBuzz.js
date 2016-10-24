@@ -1,5 +1,9 @@
-var Fizzbuzz = function() {};
+FizzBuzz = function() {};
 
-Fizzbuzz.prototype.isDivisibleByThree = function(number) {
-  return (number % 3 == 0)
+FizzBuzz.prototype.game = function(number) {
+  if (number % 3 == 0) {
+    return 'fizz';
+  };
+
+
 };
