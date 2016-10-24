@@ -11,4 +11,13 @@ describe ('Fizzbuzz', function() {
 
   });
 
+  describe('knows then a number is NOT', function() {
+
+    it('divisible by 3', function() {
+      fizzbuzz = new Fizzbuzz();
+      expect(fizzbuzz.isDivisibleByThree(1)).toBe(false);
+    });
+
+  });
+
 });
