@@ -28,6 +28,17 @@ describe('FizzBuzz', function() {
       expect(fizzBuzz.game(7)).not.toBe('buzz');
     });
 
+  });
+
+  describe("returns 'fizzbuzz' for multiples of 15", function() {
+
+    it('fizzbuzz for number 15', function() {
+      expect(fizzBuzz.game(15)).toBe('fizzbuzz');
+    });
+
+    it('not fizzbuzz for number 7', function() {
+      expect(fizzBuzz.game(7)).not.toBe('fizzbuzz');
+    });
 
   });
 
