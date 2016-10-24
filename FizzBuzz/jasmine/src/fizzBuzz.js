@@ -10,5 +10,5 @@ FizzBuzz.prototype.game = function(number) {
   if (number % 5 == 0) {
     return 'buzz';
   };
-
+  return number;
 };

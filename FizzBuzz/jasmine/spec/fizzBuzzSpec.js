@@ -45,7 +45,7 @@ describe('FizzBuzz', function() {
   describe("returns the number otherwise", function() {
 
     it('gets number back, 13 for 13', function() {
-      expect(fizzBuzz.game(11)).toBe(13);
+      expect(fizzBuzz.game(13)).toBe(13);
     });
 
   });
