@@ -1,6 +1,9 @@
 FizzBuzz = function() {};
 
 FizzBuzz.prototype.game = function(number) {
+  if (number % 5 == 0 && number % 3 == 0) {
+    return 'fizzbuzz';
+  };
   if (number % 3 == 0) {
     return 'fizz';
   };
